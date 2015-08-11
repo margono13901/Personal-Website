@@ -1,0 +1,97 @@
+/*
+	About page classes and ids
+*/
+
+p{
+	font-style: "HelveticaNeue-Light";
+	font-weight: 300;
+	color: grey;
+	font-size: 120%;
+}
+
+h3{
+	font-style: "HelveticaNeue-Light";
+	color: #34495e;
+
+}
+
+.readingListButton{
+	color: black;
+	font-style: "HelveticaNeue-Light";
+	font-weight: 100;
+	text-align: center;
+	font-size: 150%;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	padding: 10px;
+}
+
+.readingListButton:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #2c3e50;
+}
+
+.row.bottomHighlight{
+	border-top:0;
+	border-right:0;
+	border-left:0;
+	border-style: solid;;
+	border-color: #34495e; 
+	border-bottom-width: 1px;
+}
+
+/* 1st component */
+
+.jumbotron{
+	background-color: #2c3e50;
+	text-align: center;
+	font-size: 900%;
+	color: white;
+	font-style: "HelveticaNeue-Light";
+	font-weight: 100;
+	text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.75);
+	margin-bottom: 100px;
+	padding: 150px;
+}
+
+/* 2nd component */
+
+.page-header{
+	margin-top: 50px;
+}
+
+/* 3rd compnent */
+
+.btn-link{
+	background-color: transparent;
+	border-color: #2c3e50;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: "HelveticaNeue-Light";
+	font-weight: 100;
+	text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.75);
+	text-align: center;
+	font-size: 150%;
+	color: #2c3e50;
+	padding-right: 35px;
+	padding-left: 35px;
+}
+
+.btn-link:hover{
+	color: white !important;
+	text-decoration: none;
+	background-color: #2c3e50;
+}
+
+
+.btn.active, .btn:active {
+	border-color: white;
+}
+
+

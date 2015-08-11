@@ -1,0 +1,79 @@
+/*
+	Home classes and ids
+*/
+
+body{
+	background-image: url("images/background.jpg"); 
+	overflow:hidden; 
+}
+
+/* custom component 1 */
+.jumbotron{
+	background-color: transparent !important;;
+	text-align: center;
+	font-size: 900%;
+	color: white;
+	font-style: "HelveticaNeue-Light";
+	font-weight: 100;
+	text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.75);
+
+}
+
+
+/* custom component 2 */
+.btn-group{
+	padding-top: 50px;
+}
+
+.btn-group.resume{
+	margin-right: 30px;
+}
+
+.btn-group.email{
+	margin-left: 30px;
+}
+
+/* custom component 3 */
+
+.btn-link,.btn-link:visited,.btn-link:focus{
+	background-color: transparent;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: "HelveticaNeue-Light";
+	font-weight: 100;
+	text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.75);
+	text-align: center;
+	font-size: 150%;
+	color: white;
+	text-decoration: none;
+}
+
+.btn-link.resume{
+	padding-right: 23px;
+	padding-left: 23px;
+	margin-left: 50px;
+	margin-right: 30px;
+
+}
+
+.btn-link.email{
+	padding-right: 35px;
+	padding-left: 35px;
+		margin-left: 20px;
+
+}
+
+.btn-link:hover{
+	color: black !important;
+	text-decoration: none;
+	background-color: #ecf0f1;
+}
+
+
+.btn.active, .btn:active {
+	border-color: white;
+}

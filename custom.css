@@ -1,0 +1,57 @@
+body{
+	padding-top: 100px;
+}
+
+.navbar-toggle{
+	background-color: #2c3e50;
+}
+
+.active{
+    border-bottom: 1px solid black;
+}
+
+h3,p{
+
+	font-style: "HelveticaNeue-Light";
+
+}
+
+.row{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: black;
+	font-style: "HelveticaNeue-Light";
+	font-weight: 100;
+	font-size: 200%
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	font-style: "HelveticaNeue-Light";
+	font-weight: 100;
+	font-size: 200%;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+}
+
+.navbar{
+	background-color: #ecf0f1;
+	padding: 20px;
+}
+
+.navbar-brand{
+	color: black;
+	font-size: 210%;
+	margin: auto;
+	font-style: "HelveticaNeue-Light";
+	font-weight: 100;
+}
+
+.navbar-brand:hover{
+	text-decoration: none;
+	font-weight: 200;
+	color: black;
+}

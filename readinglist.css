@@ -1,0 +1,49 @@
+/*
+	Reading List classes and ids
+*/
+
+.bookImages{
+	width:280px; 
+    height: 400px;
+    margin-left: 90px;
+}
+
+/*first component*/
+
+.carousel-caption{
+	color: black;
+    line-height: normal; // restore original line height here
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto; 
+	height: 320px;
+	margin-left: 300px;
+}
+
+.carousel-indicators li{
+	background-color: #ecf0f1;
+}
+
+.carousel-indicators .active{
+	background-color: #95a5a6;
+}
+
+.carousel-slide{
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+.description{
+	font-size: 200%;
+	color: grey;
+	font-weight: 100;
+}
+
+p{
+	color: #2c3e50;
+}
+
+h3,h5{
+	color: #2c3e50;
+}

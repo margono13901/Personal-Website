@@ -1,0 +1,82 @@
+/*
+	Portfolio classes and ids
+*/
+
+.projectName{
+	text-align: center;
+	font-size: 300%;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+/*first component*/
+
+.dropdown-menu{
+	position: static !important;
+	width: 100%;
+	float: bottom;	
+}
+
+/*second component*/
+
+
+.btn.sharp{
+ 	width: 100%;
+ 	background-color: #16a085;
+ 	border-radius: 0;
+ 	height: 100px;
+ 	font-size: 300%;
+ 	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: black;
+ 	color: white;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+/*third component*/
+
+
+.jumbotron{
+	background-color: #2c3e50;
+	text-align: center;
+	font-size: 900%;
+	color: white;
+	font-style: "HelveticaNeue-Light";
+	font-weight: 100;
+	text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.75);
+	padding: 200px;
+}
+
+p{
+	font-size: 120%;
+	font-style: "HelveticaNeue-Light";
+}
+
+.sourceCode{
+	background-color: #9b59b6;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	border-radius: 10px;
+}
+
+.hackathon{
+	background-color: #2980b9;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+h1{
+	color: white;
+	font-style: "HelveticaNeue-Light";
+
+}
